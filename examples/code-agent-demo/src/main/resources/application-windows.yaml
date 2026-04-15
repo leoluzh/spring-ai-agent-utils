@@ -1,0 +1,7 @@
+spring:
+  ai:
+    ## MCP Client Configuration
+    mcp:
+      client:
+        stdio:
+          servers-configuration: classpath:/mcp-servers-config-windows.json

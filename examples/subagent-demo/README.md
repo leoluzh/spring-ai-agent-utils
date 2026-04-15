@@ -11,7 +11,7 @@ This example shows how to configure a main agent that can delegate tasks to spec
 1. Set environment variables:
 ```bash
 export GOOGLE_CLOUD_PROJECT=your-project-id
-# Or use Anthropic/OpenAI (see application.properties)
+# Or use Anthropic/OpenAI (see application-old.properties)
 ```
 
 2. Run the application:

@@ -60,7 +60,7 @@ Example interaction:
 
 ## Configuration
 
-Key settings in [application.properties](src/main/resources/application.properties):
+Key settings in [application.properties](src/main/resources/application-old.properties):
 
 ```properties
 # Active provider (uncomment one in pom.xml)
@@ -81,7 +81,7 @@ agent.model.knowledge.cutoff=2025-01-01
 ### Switching Models
 
 1. Edit [pom.xml](pom.xml) - comment/uncomment desired provider
-2. Update [application.properties](src/main/resources/application.properties) with matching config
+2. Update [application.properties](src/main/resources/application-old.properties) with matching config
 3. Rebuild: `mvn clean install`
 
 ### Custom Skills

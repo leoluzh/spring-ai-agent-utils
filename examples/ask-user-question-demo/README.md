@@ -32,7 +32,7 @@ export ANTHROPIC_API_KEY=your-api-key-here
 
 ### Alternative AI Providers
 
-The demo is pre-configured for Anthropic's Claude, but you can switch to other providers by uncommenting the relevant sections in [application.properties](src/main/resources/application.properties):
+The demo is pre-configured for Anthropic's Claude, but you can switch to other providers by uncommenting the relevant sections in [application.properties](src/main/resources/application-old.properties):
 
 - **OpenAI**: Uncomment the OpenAI SDK configuration and dependency
 - **Google GenAI**: Uncomment the Google GenAI configuration and dependency
@@ -143,7 +143,7 @@ MessageChatMemoryAdvisor.builder(
 ```
 ### Change AI Provider
 
-Edit the model and provider configuration in [application.properties](src/main/resources/application.properties#L7) as well as the pom dependecies.
+Edit the model and provider configuration in [application.properties](src/main/resources/application-old.properties#L7) as well as the pom dependecies.
 
 ## Learn More
 
